@@ -1,6 +1,6 @@
 <?php 
 
-trait GetFamglia {
+trait GetFamiglia {
     public $grandezzaFamiglia;
 
     public function setFamiglia($_componenti_fam){

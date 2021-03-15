@@ -12,7 +12,7 @@ $user1 -> indirizzo = "Corso Italia";
 $user1 -> numero_civico = 48;
 $user1 -> comune_domicilio = "Milano";
 $user1 -> componenti_fam = 4;
-$user1 ->setFamiglia(4);
+$user1 ->setFamiglia($user1 -> componenti_fam);
 $componenti = $user1 ->getFamiglia();
 
 var_dump($user1);
@@ -27,8 +27,12 @@ $user2 -> indirizzo = "Via Fontana";
 $user2 -> numero_civico = 25;
 $user2 -> comune_domicilio = "Roma";
 $user2 -> componenti_fam = 2;
+$user2 ->setFamiglia($user2 -> componenti_fam);
+$componenti2 = $user2 ->getFamiglia();
 
 
 var_dump($user2);
+echo($componenti2);
+
 
 ?>

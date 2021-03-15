@@ -1,6 +1,6 @@
 <?php 
 
-    require_once "Getfam.php";
+    require_once "getfam.php";
 
     class User {
         public $id;
@@ -10,8 +10,10 @@
         public $indirizzo;
         public $numero_civico;
         public $comune_domicilio;
+
+        
+        use GetFamiglia;
     }
 
-    use GetFamiglia;
 
 ?>
