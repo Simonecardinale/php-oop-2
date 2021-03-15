@@ -1,5 +1,7 @@
 <?php 
 
+    require_once "Getfam.php";
+
     class User {
         public $id;
         public $nome;
@@ -9,5 +11,7 @@
         public $numero_civico;
         public $comune_domicilio;
     }
+
+    use GetFamiglia;
 
 ?>
